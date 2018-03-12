@@ -1,4 +1,5 @@
 <?php
+
 function httpRequest ($url, $postData = false)
 {
     $ch = curl_init();
